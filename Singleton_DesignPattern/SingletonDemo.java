@@ -15,7 +15,6 @@ public class SingletonDemo {
     Singleton instance1 = Singleton.getSingleton();
     Singleton instance2 = Singleton.getSingleton();
 
-    System.out.println(instance1 == instance2);
 
     System.out.println(instance1.equals(instance2));
 
