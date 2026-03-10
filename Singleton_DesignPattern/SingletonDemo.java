@@ -17,6 +17,7 @@ public class SingletonDemo {
 
 
     System.out.println(instance1.equals(instance2));
+    System.out.println(instance1);
 
   }
 }
