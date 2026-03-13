@@ -17,6 +17,8 @@ public class SingletonDemo {
 
 
     System.out.println(instance1.equals(instance2));
+    System.out.println(instance1.hashCode());
+    System.out.println(instance2.hashCode());
 
   }
 }
