@@ -7,5 +7,8 @@ public class Main {
     error.log("Hey i am error logger");
 
     System.out.println("YOUUU....");
+    ILoggerFactory factory2 = new DebugFactory();
+    ILogger debug =  factory2.createLogger();
+    debug.log("Hey i am debug logger");
   }
 }
