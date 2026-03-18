@@ -5,5 +5,7 @@ public class Main {
     ILoggerFactory factory = new ErrorFactory();
     ILogger error =  factory.createLogger();
     error.log("Hey i am error logger");
+
+    System.out.println("YOUUU....");
   }
 }
